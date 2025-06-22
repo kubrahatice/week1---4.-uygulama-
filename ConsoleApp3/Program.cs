@@ -5,7 +5,7 @@
 
         // Kullanıcıya soru sor
         Console.Write("Kübra manavına hoşgeldiniz!");
-
+        Console.WriteLine("Elma = 2 TL\nArmut = 3 TL\nÇilek = 2 TL\nMuz = 3 TL\nDiğer meyveler = 4 TL");
         Console.Write("Hangi meyveyi satın almak istiyorsunuz? ");
         string meyve = Console.ReadLine().ToLower(); // Küçük harfe çevirerek karşılaştırma yapıyoruz
 
